@@ -1,0 +1,21 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.pictures img{
+    width: 100px;
+    border: 4px solid rgb(0, 0, 0);
+}
+.pictures img:hover{
+    border: 4px solid green;
+}
+.pictures{
+    display: flex;
+    gap: 10px;
+}
+.main img {
+    border: 4px solid rgb(0, 0, 0);
+}
